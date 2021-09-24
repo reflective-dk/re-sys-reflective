@@ -1,0 +1,9 @@
+---
+id: cc09e988-017e-429f-8031-8ba12333370b
+registrations:
+  - validity:
+      - input:
+          class: { id: f5155ea0-3e2f-4dcf-832a-c0fc99f2fbb4, name: Responsibility }
+          name: Organization Administration
+        from: 2018-01-01T00:00:00.000Z
+...

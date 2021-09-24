@@ -1,0 +1,17 @@
+---
+id: 7a99e37c-1bd8-4f5d-a5d0-ef840f60e88d
+registrations:
+  - validity:
+      - input:
+          class: { id: d7ae61dc-466a-4054-aa8f-1b111f9b5756, name: Right }
+          name: Alter Hierarchy
+          description: >-            
+           The responsiblity required by the permission dictates from where in
+           the hierarchy a user can alter it.  If PropagateFrom is defined, this
+           determines the subtree if no Propagation is defined, then use can
+           alter the entire tree.
+          system:
+            id: 3bb3bfa1-5a4c-45c8-9955-055270c069e3
+            name: Reflective
+        from: 2018-01-01T00:00:00.000Z
+...

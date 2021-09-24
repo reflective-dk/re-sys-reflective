@@ -1,0 +1,10 @@
+---
+id: 1e1d7af1-0e4d-49f8-a2b6-9b2358ca65cf
+registrations:
+  - validity:
+      - input:
+          class: { id: f5155ea0-3e2f-4dcf-832a-c0fc99f2fbb4, name: Responsibility }
+          name: Data Management
+          description: Responsibility for managing data on a Reflective Platform Installation
+        from: 2018-01-01T00:00:00.000Z
+...

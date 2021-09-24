@@ -1,0 +1,18 @@
+---
+id: be184a97-02ab-417f-9a6c-bbfeb0e156f1
+registrations:
+  - validity:
+      - input:
+          class:
+            id: ba923261-4f61-4463-af77-11f5f01e5146
+            name: Permission
+          name: Installation Administration responsibility grants access to BPM
+          right:
+            id: 395382a0-3ced-4b6b-9f45-782f0700d340
+            name: Access BPM
+          responsibilities:
+            ece57f1e-2f7a-4279-bc35-282510df698a:
+              id: ece57f1e-2f7a-4279-bc35-282510df698a
+              name: Installation Management
+        from: 2018-01-01T00:00:00.000Z
+...

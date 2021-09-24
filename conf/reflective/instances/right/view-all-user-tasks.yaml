@@ -1,0 +1,16 @@
+---
+id: 22560656-b82d-443d-80b1-7963fb57a4cf
+registrations:
+  - validity:
+      - input:
+          class: { id: d7ae61dc-466a-4054-aa8f-1b111f9b5756, name: Right }
+          name: View all User Tasks
+          description: >-
+            Users with this right can see all user tasks, where usually they can
+            not see tasks that they are not either assignee or approver for or is
+            outside their area of responsibility.
+          system:
+            id: 3bb3bfa1-5a4c-45c8-9955-055270c069e3
+            name: Reflective
+        from: 2018-01-01T00:00:00.000Z
+...

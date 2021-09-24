@@ -1,0 +1,19 @@
+---
+id: 14fa93fb-ab68-4e35-91e8-d0a2c0d0d959
+registrations:
+  - validity:
+      - input:
+          class:
+            id: ba923261-4f61-4463-af77-11f5f01e5146
+            name: Permission
+          name: Data Management responsibility grants access to view all organizations
+          right:
+            id: 4e1a542b-3069-41cd-a6c5-b209f6f11d17
+            name: View Organizations
+          responsibilities:
+            1e1d7af1-0e4d-49f8-a2b6-9b2358ca65cf:
+              id: 1e1d7af1-0e4d-49f8-a2b6-9b2358ca65cf
+              name: Data Management
+          all: true
+        from: 2018-01-01T00:00:00.000Z
+...

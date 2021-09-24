@@ -1,0 +1,10 @@
+---
+id: 95e92e62-ab0b-4bfe-beb3-fdc721a5d328
+registrations:
+  - validity:
+      - input:
+          class: { id: f5155ea0-3e2f-4dcf-832a-c0fc99f2fbb4, name: Responsibility }
+          name: System Ownership
+          isSystemResponsibility: true
+        from: 2018-01-01T00:00:00.000Z
+...

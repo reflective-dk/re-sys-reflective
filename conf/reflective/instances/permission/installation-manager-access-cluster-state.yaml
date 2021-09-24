@@ -1,0 +1,18 @@
+---
+id: 773f04e6-15c8-4869-a3c8-d2392153853f
+registrations:
+  - validity:
+      - input:
+          class:
+            id: ba923261-4f61-4463-af77-11f5f01e5146
+            name: Permission
+          name: Installation Administration responsibility grants access to Cluster Explorer
+          right:
+            id: fb82dbd7-501d-42a5-8d24-d79b40a0ac37
+            name: Access Cluster State
+          responsibilities:
+            ece57f1e-2f7a-4279-bc35-282510df698a:
+              id: ece57f1e-2f7a-4279-bc35-282510df698a
+              name: Installation Management
+        from: 2018-01-01T00:00:00.000Z
+...

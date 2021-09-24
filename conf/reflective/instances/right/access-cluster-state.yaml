@@ -1,0 +1,15 @@
+---
+id: fb82dbd7-501d-42a5-8d24-d79b40a0ac37
+registrations:
+  - validity:
+      - input:
+          class: { id: d7ae61dc-466a-4054-aa8f-1b111f9b5756, name: Right }
+          name: May read state of all cluster
+          description: >-
+            Only select users should be allowed to see the state of a cluster
+            outside the domain they are authenticated against
+          system:
+            id: 3bb3bfa1-5a4c-45c8-9955-055270c069e3
+            name: Reflective
+        from: 2018-01-01T00:00:00.000Z
+...

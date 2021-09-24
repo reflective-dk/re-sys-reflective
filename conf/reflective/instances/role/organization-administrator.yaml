@@ -1,0 +1,16 @@
+---
+id: d0c03da5-583c-42a9-ae6f-c13dd01bbe09
+registrations:
+  - validity:
+      - input:
+          class: { id: c4be5a95-1320-4996-b219-e2f6f7cef8dd, name: Role }
+          name: Organization Administrator
+          responsibilities:
+            cc09e988-017e-429f-8031-8ba12333370b:
+              id: cc09e988-017e-429f-8031-8ba12333370b
+              name: Organization Administration
+            70aac330-8492-4663-a803-b876f286e73b:
+              id: 70aac330-8492-4663-a803-b876f286e73b
+              name: Organization Viewing
+        from: 2018-01-01T00:00:00.000Z
+...

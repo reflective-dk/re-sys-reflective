@@ -1,0 +1,22 @@
+---
+id: cc8361a8-66b8-433d-b538-590584b90b34
+registrations:
+  - validity:
+      - input:
+          class:
+            id: ba923261-4f61-4463-af77-11f5f01e5146
+            name: Permission
+          name: Data Management responsibility grants access to view all hierarchies
+          right:
+            id: 00fbc136-4520-4f68-b709-3585ccc83a53
+            name: View Hierarchy
+          responsibilities:
+            1e1d7af1-0e4d-49f8-a2b6-9b2358ca65cf:
+              id: 1e1d7af1-0e4d-49f8-a2b6-9b2358ca65cf
+              name: Data Management
+          target:
+            id: a07908c1-883f-41e6-9beb-02981f48b067
+            name: Hierarchy
+          all: true
+        from: 2018-01-01T00:00:00.000Z
+...

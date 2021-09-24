@@ -1,0 +1,18 @@
+---
+id: e7330899-e503-40f9-9e74-73473426caad
+registrations:
+  - validity:
+      - input:
+          class:
+            id: ba923261-4f61-4463-af77-11f5f01e5146
+            name: Permission
+          name: Installation Administration responsibility grants access to Logs
+          right:
+            id: 29b6086d-bd5c-4da3-a531-78abfc84c77d
+            name: May view Cluster Logs
+          responsibilities:
+            ece57f1e-2f7a-4279-bc35-282510df698a:
+              id: ece57f1e-2f7a-4279-bc35-282510df698a
+              name: Installation Management
+        from: 2018-01-01T00:00:00.000Z
+...

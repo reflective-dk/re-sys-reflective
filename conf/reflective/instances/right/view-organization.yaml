@@ -1,0 +1,16 @@
+---
+id: 4e1a542b-3069-41cd-a6c5-b209f6f11d17
+registrations:
+  - validity:
+      - input:
+          class: { id: d7ae61dc-466a-4054-aa8f-1b111f9b5756, name: Right }
+          name: View Organization
+          description: >-
+            Access to read specific organizations can be controlled. Permission
+            is granted per organization and can be propageted from a specific
+            subtree in the corresponding hierarchy.
+          system:
+            id: 3bb3bfa1-5a4c-45c8-9955-055270c069e3
+            name: Reflective
+        from: 2018-01-01T00:00:00.000Z
+...

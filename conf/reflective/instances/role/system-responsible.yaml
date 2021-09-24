@@ -1,0 +1,16 @@
+---
+id: 3288e48f-fdd7-4659-b163-74e6162e5587
+registrations:
+  - validity:
+      - input:
+          class: { id: c4be5a95-1320-4996-b219-e2f6f7cef8dd, name: Role }
+          name: System Responsible
+          responsibilities:
+            95e92e62-ab0b-4bfe-beb3-fdc721a5d328:
+              id: 95e92e62-ab0b-4bfe-beb3-fdc721a5d328
+              name: System Ownership
+            339a8c0a-e0dd-4b2f-8f6a-c887aa46dfdc:
+              id: 339a8c0a-e0dd-4b2f-8f6a-c887aa46dfdc
+              name: System Administration
+        from: 2018-01-01T00:00:00.000Z
+...

@@ -1,0 +1,18 @@
+---
+id: 45a49934-b819-426e-8bc6-7c735c01865f
+registrations:
+  - validity:
+      - input:
+          class:
+            id: ba923261-4f61-4463-af77-11f5f01e5146
+            name: Permission
+          name: Data Management responsibility grants access to cluster logs
+          right:
+            id: 29b6086d-bd5c-4da3-a531-78abfc84c77d
+            name: View Logs
+          responsibilities:
+            1e1d7af1-0e4d-49f8-a2b6-9b2358ca65cf:
+              id: 1e1d7af1-0e4d-49f8-a2b6-9b2358ca65cf
+              name: Data Management
+        from: 2018-01-01T00:00:00.000Z
+...

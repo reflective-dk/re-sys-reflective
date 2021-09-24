@@ -1,0 +1,19 @@
+---
+id: c76b3d35-fc07-425a-b430-57ebd8c480ef
+registrations:
+  - validity:
+      - input:
+          name: Platform Administrator
+          isTechnicalRole: true
+          responsibilities:
+            1e1d7af1-0e4d-49f8-a2b6-9b2358ca65cf:
+              id: 1e1d7af1-0e4d-49f8-a2b6-9b2358ca65cf
+              name: Data Management
+            ece57f1e-2f7a-4279-bc35-282510df698a:
+              id: ece57f1e-2f7a-4279-bc35-282510df698a
+              name: Installation Administration
+            cc09e988-017e-429f-8031-8ba12333370b:
+              id: cc09e988-017e-429f-8031-8ba12333370b
+              name: Organization Administration
+        from: 2018-01-01T00:00:00.000Z
+...

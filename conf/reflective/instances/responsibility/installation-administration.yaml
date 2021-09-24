@@ -1,0 +1,10 @@
+---
+id: ece57f1e-2f7a-4279-bc35-282510df698a
+registrations:
+  - validity:
+      - input:
+          class: { id: f5155ea0-3e2f-4dcf-832a-c0fc99f2fbb4, name: Responsibility }
+          name: Installation Administration
+          description: Responsibility for running a Reflective Platform installation, looking into logs, managing chains in state, camunda deployments and more
+        from: 2018-01-01T00:00:00.000Z
+...
