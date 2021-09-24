@@ -1,0 +1,41 @@
+{
+  "name": "re-sys-reflective",
+  "version": "0.1.0",
+  "description": "Configuration objects for the Reflective IT system",
+  "main": "index.js",
+  "scripts": {
+    "create-object": "create-object",
+    "build": "build-objects",
+    "clean": "rm -Rf ./build",
+    "predeploy": "npm run upload",
+    "deploy": "re add -j build/objects.json",
+    "postdeploy": "npm run validate",
+    "upload": "upload-data",
+    "validate": "validate-objects",
+    "test": "mocha --recursive",
+    "docs": "build-documents",
+    "clobber": "rm -rf node_modules; rm -f package-lock.json",
+    "dev": "http-server -g -c-1 -p 8081"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/reflective-dk/re-sys-reflective.git"
+  },
+  "keywords": [
+    "reflective",
+    "generic",
+    "conf"
+  ],
+  "author": "Reflective Code <code@reflective.dk>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "re-common-app": "git+ssh://git@github.com/reflective-dk/re-common-app.git",
+    "re-conf-util": "git+ssh://git@github.com/reflective-dk/re-conf-util.git",
+    "re-models": "git+ssh://git@github.com/reflective-dk/re-models.git",
+    "reflective-api": "git+ssh://git@github.com/reflective-dk/reflective-api.git"
+  },
+  "devDependencies": {
+    "re-core-cli": "git+ssh://git@github.com:reflective-dk/re-core-cli.git"
+  }
+}

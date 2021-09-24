@@ -1,0 +1,20 @@
+---
+id: 06b4fd0b-ab97-4c70-90d0-3b82e119575b
+registrations:
+  - validity:
+      - input:
+          class: { id: a882353e-8b1b-4649-a759-ccf95b9c1fe3, name: System Access Profile }
+          name: Reflective Grundprofil
+          description: Grundprofil med alle adgange
+          system: { id: 3bb3bfa1-5a4c-45c8-9955-055270c069e3, name: Reflective }
+          category: system-access
+          published: false
+          accesses:
+            d40fe91d-627a-48e2-8201-5ceb29e706a5:
+              id: d40fe91d-627a-48e2-8201-5ceb29e706a5
+              name: Reflective Org Viewer
+            18bc20c2-0bd3-4c3a-bb35-26f9a423580f:
+              id: 18bc20c2-0bd3-4c3a-bb35-26f9a423580f
+              name: Reflective Task Manager
+        from: 2005-01-01T00:00:00.000Z
+...
