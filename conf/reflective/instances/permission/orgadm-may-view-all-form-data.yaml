@@ -1,0 +1,20 @@
+---
+id: d02fbf8d-ac94-4648-823b-409a749a1ba2
+registrations:
+  - validity:
+      - input:
+          class:
+            id: ba923261-4f61-4463-af77-11f5f01e5146
+            name: Permission
+          name: >-
+            Organization Administration responsibility grants access to view all
+            Form Data produced by anyone in any process
+          right:
+            id: 2f637153-3ea6-4e0b-8d12-ae8de9a5b13e
+            name: View All Form Data
+          responsibilities:
+            cc09e988-017e-429f-8031-8ba12333370b:
+              id: cc09e988-017e-429f-8031-8ba12333370b
+              name: Organization Management
+        from: 2018-01-01T00:00:00.000Z
+...

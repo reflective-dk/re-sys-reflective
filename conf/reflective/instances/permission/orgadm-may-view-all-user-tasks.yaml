@@ -1,0 +1,20 @@
+---
+id: 7dd2e5e1-e3c9-4042-9e29-4771d7a986c8
+registrations:
+  - validity:
+      - input:
+          class:
+            id: ba923261-4f61-4463-af77-11f5f01e5146
+            name: Permission
+          name: >-
+            Organization Administration responsibility grants access to view
+            all user tasks
+          right:
+            id: 22560656-b82d-443d-80b1-7963fb57a4cf
+            name: View All Tasks
+          responsibilities:
+            cc09e988-017e-429f-8031-8ba12333370b:
+              id: cc09e988-017e-429f-8031-8ba12333370b
+              name: Organization Management
+        from: 2018-01-01T00:00:00.000Z
+...
