@@ -29,6 +29,7 @@ registrations:
                 name: true
                 activeFrom: true
                 activeTo: true
+                class: true
             tagHierarchy:
               type: hierarchy
               hierarchyQuery:
