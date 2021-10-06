@@ -12,7 +12,7 @@
       <bpmn:incoming>SequenceFlow_08rl4ek</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0yrv99v</bpmn:outgoing>
     </bpmn:serviceTask>
-    <bpmn:userTask id="admintask" name="Udvælg AD-grupper til systemadgange" camunda:formKey="ae2e787f-04ba-4f98-87e9-7ba0d229a679">
+    <bpmn:userTask id="admintask" name="Udvælg AD-grupper til systemadgange" camunda:formKey="f18d45ef-193e-49cb-82ae-908b9611a081">
       <bpmn:incoming>SequenceFlow_14zjcbt</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_08rl4ek</bpmn:outgoing>
     </bpmn:userTask>
