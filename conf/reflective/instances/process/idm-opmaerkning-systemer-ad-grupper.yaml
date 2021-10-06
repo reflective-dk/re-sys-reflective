@@ -1,0 +1,13 @@
+---
+id: 594e3efe-1ba4-4692-b369-087fcf7e3b65
+registrations:
+  - validity:
+      - input:
+          class: { id: efec2048-b4f3-4ffd-a7ba-b6698d412bbc, name: Process }
+          name: Udvælg AD-grupper til systemadgange
+          userStartable: true
+          chain: idm-tagging
+          category: IDM
+          bpmn: { hash: idm-opmaerkning-systemer-ad-grupper.bpmn }
+        from: 2018-01-01T00:00:00.000Z
+...

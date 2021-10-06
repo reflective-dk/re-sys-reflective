@@ -1,0 +1,30 @@
+---
+id: ff159fbb-ca0f-4597-acb3-fb26b7063363
+registrations:
+  - validity:
+      - input:
+          class: { id: 36a0eb70-1ef1-45dd-a0bc-73c58685e012, name: View Definition }
+          name: Udvælg AD-grupper til systemadgange
+          config:
+            ids: [ tagging-admin-id ]
+            bundleRefs:
+              entityTree: entityTree
+              tagTree: tagTree
+              allocations: allocations
+              profile: profile
+            extensionRefs:
+              allocationValues: allocationValues
+          view:
+            id: tagging-admin-id
+            view: ro-tagging-admin
+            profile: profile
+            allocations: allocations
+            allocationValues: allocationValues
+            entityTree: entityTree
+            entityTreeLabel: Systemer
+            entityTypeLabel: System
+            tagTree: tagTree
+            tagTreeLabel: AD-grupper
+            tagTypeLabel: AD-gruppe
+        from: 2005-01-01T00:00:00.000Z
+...

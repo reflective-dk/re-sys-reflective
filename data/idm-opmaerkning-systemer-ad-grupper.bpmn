@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:bioc="http://bpmn.io/schema/bpmn/biocolor/1.0" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="3.1.0">
+  <bpmn:collaboration id="b0fdb513">
+    <bpmn:participant id="f63c1fbd" name="Administrator for Reflective" processRef="R594e3efe-1ba4-4692-b369-087fcf7e3b65" />
+  </bpmn:collaboration>
+  <bpmn:process id="R594e3efe-1ba4-4692-b369-087fcf7e3b65" name="Udvælg AD-grupper til systemadgange" isExecutable="true" camunda:versionTag="1.0" camunda:taskPriority="1">
+    <bpmn:laneSet />
+    <bpmn:endEvent id="end" name="Fuldført">
+      <bpmn:incoming>SequenceFlow_0yrv99v</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:serviceTask id="merge" name="Sæt i produktion" camunda:type="external" camunda:topic="merge">
+      <bpmn:incoming>SequenceFlow_08rl4ek</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0yrv99v</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:userTask id="admintask" name="Udvælg AD-grupper til systemadgange" camunda:formKey="ae2e787f-04ba-4f98-87e9-7ba0d229a679">
+      <bpmn:incoming>SequenceFlow_14zjcbt</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_08rl4ek</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:startEvent id="start" name="start">
+      <bpmn:outgoing>SequenceFlow_14zjcbt</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_0yrv99v" sourceRef="merge" targetRef="end" />
+    <bpmn:sequenceFlow id="SequenceFlow_08rl4ek" sourceRef="admintask" targetRef="merge" />
+    <bpmn:sequenceFlow id="SequenceFlow_14zjcbt" sourceRef="start" targetRef="admintask" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="b0fdb513">
+      <bpmndi:BPMNShape id="Participant_1cmscbv_di" bpmnElement="f63c1fbd" isHorizontal="true">
+        <dc:Bounds x="161" y="95" width="579" height="317" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_08rl4ek_di" bpmnElement="SequenceFlow_08rl4ek">
+        <di:waypoint x="431" y="255" />
+        <di:waypoint x="492" y="255" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="-9" y="251" width="90" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_14zjcbt_di" bpmnElement="SequenceFlow_14zjcbt">
+        <di:waypoint x="275" y="255" />
+        <di:waypoint x="331" y="255" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="-210.5" y="250.5" width="90" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0yrv99v_di" bpmnElement="SequenceFlow_0yrv99v">
+        <di:waypoint x="592" y="255" />
+        <di:waypoint x="648" y="255" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="380.5" y="251" width="0" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="EndEvent_0718vr8_di" bpmnElement="end">
+        <dc:Bounds x="648" y="237" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="649" y="287" width="38" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ServiceTask_0hym356_di" bpmnElement="merge" bioc:stroke="rgb(67, 160, 71)" bioc:fill="rgb(200, 230, 201)">
+        <dc:Bounds x="492" y="215" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="UserTask_01gt1p4_di" bpmnElement="admintask" bioc:stroke="rgb(67, 160, 71)" bioc:fill="rgb(200, 230, 201)">
+        <dc:Bounds x="331" y="215" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="start">
+        <dc:Bounds x="239" y="237" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="247" y="283" width="22" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

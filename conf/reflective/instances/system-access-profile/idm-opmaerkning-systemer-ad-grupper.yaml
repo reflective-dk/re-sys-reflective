@@ -1,0 +1,29 @@
+---
+id: 552ba9d6-bf17-4392-83b9-692b70f691b0
+registrations:
+  - validity:
+      - input:
+          class: { id: a882353e-8b1b-4649-a759-ccf95b9c1fe3, name: System Access Profile }
+          name: AD-grupper
+          shortName: AD-grupper
+          title: AD-grupper
+          system:
+            id: 3bb3bfa1-5a4c-45c8-9955-055270c069e3
+            name: Reflective
+          published: true
+          synligBrugergodkendelse: false
+          category: tagging
+          acceptedEntityClasses:
+            e8bc40c5-e542-4bab-b6fc-64b2339ffa15:
+              id: e8bc40c5-e542-4bab-b6fc-64b2339ffa15
+              name: System
+          acceptedTagClasses:
+            b54fc01e-0777-4f67-b49a-80f7072a1ba0:
+              id: b54fc01e-0777-4f67-b49a-80f7072a1ba0
+              name: AD Group
+          accesses:
+            c6ec4fef-29e5-4870-b06e-ebcbb745481f:
+              id: c6ec4fef-29e5-4870-b06e-ebcbb745481f
+              name: Adgangstilknytning
+        from: 2018-01-01T00:00:00.000Z
+...
