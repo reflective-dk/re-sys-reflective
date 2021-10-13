@@ -4,7 +4,7 @@ registrations:
   - validity:
       - input:
           class: { id: 48c3b7b9-dc7a-42ae-9759-b65336f12b36, name: Extraction Spec }
-          name: Thisted AD Extraction Spec
+          name: Udvælg AD-grupper til systemadgange
           tenant:
             # Note: Using process id as generic tenant - we're dealing with AD
             # Group uuids so having customer-specific tenant ids is not necessary
