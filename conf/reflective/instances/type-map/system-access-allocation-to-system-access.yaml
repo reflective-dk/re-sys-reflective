@@ -26,11 +26,8 @@ registrations:
               useSeed: true
               sourceAttribute:
                 type: path
-                path: [ id, name ]
+                path: [ id, description ]
               targetAttribute: description
-              transform:
-                - type: prefix
-                  prefix: 'System Access '
             adGroup:
               useSeed: true
               sourceAttribute: id
