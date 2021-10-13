@@ -1,0 +1,24 @@
+---
+id: 9387b819-6d48-43a3-afdf-7f7f86213810
+registrations:
+  - validity:
+      - input:
+          class: { id: 48c3b7b9-dc7a-42ae-9759-b65336f12b36, name: Extraction Spec }
+          name: Thisted AD Extraction Spec
+          tenant:
+            # Note: Using process id as generic tenant - we're dealing with AD
+            # Group uuids so having customer-specific tenant ids is not necessary
+            # TODO: Extract step of integrator should handle dynamic tenant, same
+            # as stage and incorporate
+            id: 594e3efe-1ba4-4692-b369-087fcf7e3b65
+            name: Udvælg AD-grupper til systemadgange
+          system: { id: b722c7ca-2461-4d85-95ac-acb577908266, name: Active Directory }
+          chain: idm-tagging
+          sources:
+            ro:
+              id: 8a9731d4-766f-4a0e-b856-636d1384565e
+          extraction:
+            systemAccess:
+              id: 53a37446-47a2-4809-9924-41ce2e2f3d3d
+              name: System Access Allocation -> System Access
+...

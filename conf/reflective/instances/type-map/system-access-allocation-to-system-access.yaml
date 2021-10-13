@@ -1,0 +1,54 @@
+---
+id: 53a37446-47a2-4809-9924-41ce2e2f3d3d
+registrations:
+  - validity:
+      - input:
+          class: { id: efefe41d-805b-478f-8e4d-841085cb7dfa, name: Type Map }
+          name: System Access Allocation -> System Access
+          sourceType: { id: 8b0390d1-74b9-48a2-a4cf-406e934ea120, name: System Access Allocation }
+          targetType: { id: 1938d89b-a935-412d-a23c-02709fe63c0c, name: System Access }
+          query: { relatesTo: { class: 8b0390d1-74b9-48a2-a4cf-406e934ea120 }, extensionOnly: true }
+          idSeed: auxiliary.c6ec4fef-29e5-4870-b06e-ebcbb745481f
+          transform:
+            - type: forEach
+            - type: descend
+              attribute: id
+          warmUps:
+            adGroup: { relatesTo: { class: b54fc01e-0777-4f67-b49a-80f7072a1ba0 } }
+          mappings:
+            name:
+              useSeed: true
+              sourceAttribute:
+                - type: path
+                  path: [ id, name ]
+              targetAttribute: name
+            description:
+              useSeed: true
+              sourceAttribute:
+                type: path
+                path: [ id, name ]
+              targetAttribute: description
+              transform:
+                - type: prefix
+                  prefix: 'System Access '
+            adGroup:
+              useSeed: true
+              sourceAttribute: id
+              targetAttribute: adGroup.id
+            system:
+              sourceAttribute: entity
+              targetAttribute: system
+            auxiliaryType:
+              sourceAttribute: name
+              targetAttribute: auxiliaryType
+              transform:
+                type: constant
+                value: checkbox
+            category:
+              sourceAttribute: name
+              targetAttribute: category
+              transform:
+                type: constant
+                value: application
+        from: 2018-01-01T00:00:00.000Z
+...
