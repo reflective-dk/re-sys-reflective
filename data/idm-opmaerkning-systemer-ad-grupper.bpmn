@@ -4,12 +4,24 @@
     <bpmn:participant id="f63c1fbd" name="Administrator for Reflective" processRef="R594e3efe-1ba4-4692-b369-087fcf7e3b65" />
   </bpmn:collaboration>
   <bpmn:process id="R594e3efe-1ba4-4692-b369-087fcf7e3b65" name="Udvælg AD-grupper til systemadgange" isExecutable="true" camunda:versionTag="1.0" camunda:taskPriority="1">
-    <bpmn:extensionElements>
-      <camunda:properties>
-        <camunda:property name="responsibility" value="cc09e988-017e-429f-8031-8ba12333370b" />
-      </camunda:properties>
-    </bpmn:extensionElements>
-    <bpmn:laneSet />
+    <bpmn:laneSet>
+      <bpmn:lane id="Lane_1gsnmqr">
+        <bpmn:extensionElements>
+          <camunda:properties>
+            <camunda:property name="responsibility" value="cc09e988-017e-429f-8031-8ba12333370b" />
+          </camunda:properties>
+        </bpmn:extensionElements>
+        <bpmn:flowNodeRef>end</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>merge</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>admintask</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>start</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0jsnend</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_023blca</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>UserTask_1c072j5</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_1088jsu</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>EndEvent_12nqllu</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
     <bpmn:endEvent id="end" name="Fuldført">
       <bpmn:incoming>SequenceFlow_0yrv99v</bpmn:incoming>
     </bpmn:endEvent>
@@ -63,7 +75,10 @@
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="b0fdb513">
       <bpmndi:BPMNShape id="Participant_1cmscbv_di" bpmnElement="f63c1fbd" isHorizontal="true">
-        <dc:Bounds x="167" y="51" width="905" height="393" />
+        <dc:Bounds x="167" y="51" width="905" height="513" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_1gsnmqr_di" bpmnElement="Lane_1gsnmqr" isHorizontal="true">
+        <dc:Bounds x="197" y="51" width="875" height="513" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_18osqy9_di" bpmnElement="SequenceFlow_18osqy9">
         <di:waypoint x="718" y="202" />
