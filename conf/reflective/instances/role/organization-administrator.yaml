@@ -5,6 +5,7 @@ registrations:
       - input:
           class: { id: c4be5a95-1320-4996-b219-e2f6f7cef8dd, name: Role }
           name: Organization Administrator
+          isTechnicalRole: true
           responsibilities:
             cc09e988-017e-429f-8031-8ba12333370b:
               id: cc09e988-017e-429f-8031-8ba12333370b
