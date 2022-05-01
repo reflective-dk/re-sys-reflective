@@ -3,6 +3,7 @@ id: c76b3d35-fc07-425a-b430-57ebd8c480ef
 registrations:
   - validity:
       - input:
+          class: { id: c4be5a95-1320-4996-b219-e2f6f7cef8dd, name: Role }
           name: Platform Administrator
           isTechnicalRole: true
           responsibilities:
