@@ -5,7 +5,6 @@ registrations:
       - input:
           class: { id: c4be5a95-1320-4996-b219-e2f6f7cef8dd, name: Role }
           name: Administrationsadgange
-          isTechnicalRole: true
           responsibilities:
             615bcc27-7b6f-44fe-95d8-2726150deb44:
               id: 615bcc27-7b6f-44fe-95d8-2726150deb44
