@@ -1,0 +1,10 @@
+---
+id: 2abdc4c2-94e7-4d8f-9ae5-9776cc1e9fb7
+registrations:
+  - validity:
+      - input:
+          class: { id: f5155ea0-3e2f-4dcf-832a-c0fc99f2fbb4, name: Responsibility }
+          name: Roller og Ansvar
+          isTechnical: true
+        from: 2018-01-01T00:00:00.000Z
+...

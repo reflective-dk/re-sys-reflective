@@ -1,0 +1,23 @@
+---
+id: 3da87d3c-d8fe-4235-989f-dd5a4352052d
+registrations:
+  - validity:
+      - input:
+          class: { id: c4be5a95-1320-4996-b219-e2f6f7cef8dd, name: Role }
+          name: Administrationsadgange
+          isTechnicalRole: true
+          responsibilities:
+            615bcc27-7b6f-44fe-95d8-2726150deb44:
+              id: 615bcc27-7b6f-44fe-95d8-2726150deb44
+              name: Rolletildelinger
+            2abdc4c2-94e7-4d8f-9ae5-9776cc1e9fb7:
+              id: 2abdc4c2-94e7-4d8f-9ae5-9776cc1e9fb7
+              name: Roller og Ansvar
+            1f1f4dae-e6de-47ec-b2a0-27a471a2faf0:
+              id: 1f1f4dae-e6de-47ec-b2a0-27a471a2faf0
+              name: Systemer
+            2e5574f9-a7b5-4e11-8d53-0d87effa5421:
+              id: 2e5574f9-a7b5-4e11-8d53-0d87effa5421
+              name: Enheder og Lokationer
+        from: 2018-01-01T00:00:00.000Z
+...
