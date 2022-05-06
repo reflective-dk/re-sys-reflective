@@ -7,7 +7,7 @@ registrations:
           name: Adgangstilknytning
           shortName: Adgangstilknytning
           title: Adgangstilknytning
-          category: Opmærkning
+          category: tagging
           system:
             id: 3bb3bfa1-5a4c-45c8-9955-055270c069e3
             name: Reflective
