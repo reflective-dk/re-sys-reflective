@@ -13,5 +13,8 @@ registrations:
             339a8c0a-e0dd-4b2f-8f6a-c887aa46dfdc:
               id: 339a8c0a-e0dd-4b2f-8f6a-c887aa46dfdc
               name: System Administration
+            d90b306f-9d69-4f83-90e0-319152e3b24b:
+              id: d90b306f-9d69-4f83-90e0-319152e3b24b
+              name: Opgaveudførsel
         from: 2018-01-01T00:00:00.000Z
 ...

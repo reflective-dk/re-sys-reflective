@@ -1,0 +1,11 @@
+---
+id: d90b306f-9d69-4f83-90e0-319152e3b24b
+registrations:
+  - validity:
+      - input:
+          class: { id: f5155ea0-3e2f-4dcf-832a-c0fc99f2fbb4, name: Responsibility }
+          name: Opgaveudførsel
+          isSystemResponsibility: true
+          isTechnical: true
+        from: 2018-01-01T00:00:00.000Z
+...
