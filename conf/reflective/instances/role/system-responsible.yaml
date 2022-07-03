@@ -6,6 +6,7 @@ registrations:
           class: { id: c4be5a95-1320-4996-b219-e2f6f7cef8dd, name: Role }
           name: System Responsible
           isTechnicalRole: true
+          systemRequired: true
           responsibilities:
             95e92e62-ab0b-4bfe-beb3-fdc721a5d328:
               id: 95e92e62-ab0b-4bfe-beb3-fdc721a5d328
