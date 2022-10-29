@@ -18,5 +18,47 @@ registrations:
             2e5574f9-a7b5-4e11-8d53-0d87effa5421:
               id: 2e5574f9-a7b5-4e11-8d53-0d87effa5421
               name: Enheder og Lokationer
+            a1c457d3-d58b-481f-9dd2-543fa2ba5d22:
+              id: a1c457d3-d58b-481f-9dd2-543fa2ba5d22
+              name: Adresser
+            2bacddf0-65d5-4439-931b-d4b614eb8452:
+              id: 2bacddf0-65d5-4439-931b-d4b614eb8452
+              name: Udstyr
+            9917db95-44f8-44d9-8fb6-eb4f8d1d2aa1:
+              id: 9917db95-44f8-44d9-8fb6-eb4f8d1d2aa1
+              name: Udstyrstildelinger
+            34db092c-aed4-437c-875d-427793a38af7:
+              id: 34db092c-aed4-437c-875d-427793a38af7
+              name: Udstyrrapport
+            e21ce6c4-b793-4356-9286-98d44782bd4f:
+              id: e21ce6c4-b793-4356-9286-98d44782bd4f
+              name: Ansættelser
+            18eef701-3978-4fcc-9db3-f37ff29fef38:
+              id: 18eef701-3978-4fcc-9db3-f37ff29fef38
+              name: Alle Profiler
+            b78f241e-4222-41fb-b161-3edb727d3c54:
+              id: b78f241e-4222-41fb-b161-3edb727d3c54
+              name: Stillingsbetegnelser
+            7371efac-5867-4bec-9112-3f7d8c8d69d2:
+              id: 7371efac-5867-4bec-9112-3f7d8c8d69d2
+              name: Medarbejderoverblik
+            beb166dc-d781-404a-8c50-2f6dc1af3a2e:
+              id: beb166dc-d781-404a-8c50-2f6dc1af3a2e
+              name: Personer
+            ebd40a9e-fa0a-4e72-851a-4616025a9df3:
+              id: ebd40a9e-fa0a-4e72-851a-4616025a9df3
+              name: Tildelinger af systemadgange
+            293e91b9-a5f9-499b-91fe-b35a2b3cb951:
+              id: 293e91b9-a5f9-499b-91fe-b35a2b3cb951
+              name: Attestering af systemadgange
+            55c746ea-f0fd-488f-b01f-a3f3b653ca0e:
+              id: 55c746ea-f0fd-488f-b01f-a3f3b653ca0e
+              name: Systemer
+            b3380b13-9f97-43e0-bd19-0af4ba73515a:
+              id: b3380b13-9f97-43e0-bd19-0af4ba73515a
+              name: Teams
+            297c4a9f-faf6-4061-b602-01add17f9bd4:
+              id: 297c4a9f-faf6-4061-b602-01add17f9bd4
+              name: Brugerkonti
         from: 2018-01-01T00:00:00.000Z
 ...

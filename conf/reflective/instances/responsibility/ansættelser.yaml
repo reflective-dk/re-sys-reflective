@@ -1,0 +1,10 @@
+---
+id: e21ce6c4-b793-4356-9286-98d44782bd4f
+registrations:
+  - validity:
+      - input:
+          class: { id: f5155ea0-3e2f-4dcf-832a-c0fc99f2fbb4, name: Responsibility }
+          name: Ansættelser
+          isTechnical: true
+        from: 2018-01-01T00:00:00.000Z
+...

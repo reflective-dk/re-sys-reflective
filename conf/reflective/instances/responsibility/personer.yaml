@@ -1,0 +1,10 @@
+---
+id: beb166dc-d781-404a-8c50-2f6dc1af3a2e
+registrations:
+  - validity:
+      - input:
+          class: { id: f5155ea0-3e2f-4dcf-832a-c0fc99f2fbb4, name: Responsibility }
+          name: Personer
+          isTechnical: true
+        from: 2018-01-01T00:00:00.000Z
+...

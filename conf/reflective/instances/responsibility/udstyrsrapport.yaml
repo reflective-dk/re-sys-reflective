@@ -1,0 +1,10 @@
+---
+id: 34db092c-aed4-437c-875d-427793a38af7
+registrations:
+  - validity:
+      - input:
+          class: { id: f5155ea0-3e2f-4dcf-832a-c0fc99f2fbb4, name: Responsibility }
+          name: Udstyrsrapport
+          isTechnical: true
+        from: 2018-01-01T00:00:00.000Z
+...

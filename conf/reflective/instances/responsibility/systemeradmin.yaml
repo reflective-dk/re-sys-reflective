@@ -1,0 +1,10 @@
+---
+id: 55c746ea-f0fd-488f-b01f-a3f3b653ca0
+registrations:
+  - validity:
+      - input:
+          class: { id: f5155ea0-3e2f-4dcf-832a-c0fc99f2fbb4, name: Responsibility }
+          name: Systemer
+          isTechnical: true
+        from: 2018-01-01T00:00:00.000Z
+...

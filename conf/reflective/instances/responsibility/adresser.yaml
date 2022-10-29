@@ -1,0 +1,10 @@
+---
+id: a1c457d3-d58b-481f-9dd2-543fa2ba5d22
+registrations:
+  - validity:
+      - input:
+          class: { id: f5155ea0-3e2f-4dcf-832a-c0fc99f2fbb4, name: Responsibility }
+          name: Adresser
+          isTechnical: true
+        from: 2018-01-01T00:00:00.000Z
+...

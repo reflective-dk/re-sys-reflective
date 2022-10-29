@@ -1,0 +1,10 @@
+---
+id: ebd40a9e-fa0a-4e72-851a-4616025a9df3
+registrations:
+  - validity:
+      - input:
+          class: { id: f5155ea0-3e2f-4dcf-832a-c0fc99f2fbb4, name: Responsibility }
+          name: Tildeling af systemadgange
+          isTechnical: true
+        from: 2018-01-01T00:00:00.000Z
+...
