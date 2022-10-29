@@ -51,9 +51,6 @@ registrations:
             293e91b9-a5f9-499b-91fe-b35a2b3cb951:
               id: 293e91b9-a5f9-499b-91fe-b35a2b3cb951
               name: Attestering af systemadgange
-            55c746ea-f0fd-488f-b01f-a3f3b653ca0e:
-              id: 55c746ea-f0fd-488f-b01f-a3f3b653ca0e
-              name: Systemer
             b3380b13-9f97-43e0-bd19-0af4ba73515a:
               id: b3380b13-9f97-43e0-bd19-0af4ba73515a
               name: Teams
