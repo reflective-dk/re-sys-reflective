@@ -6,6 +6,9 @@ registrations:
           class: { id: c4be5a95-1320-4996-b219-e2f6f7cef8dd, name: Role }
           name: Administrationsadgange
           responsibilities:
+            9f39f1e8-1e54-4cae-be6b-b190a422ca51:
+              id: 9f39f1e8-1e54-4cae-be6b-b190a422ca51
+              name: Studienævn
             615bcc27-7b6f-44fe-95d8-2726150deb44:
               id: 615bcc27-7b6f-44fe-95d8-2726150deb44
               name: Rolletildelinger
