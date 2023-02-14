@@ -20,7 +20,10 @@ registrations:
               name: Systemer
             2e5574f9-a7b5-4e11-8d53-0d87effa5421:
               id: 2e5574f9-a7b5-4e11-8d53-0d87effa5421
-              name: Enheder og Lokationer
+              name: Enheder
+            1f521e1e-6835-4d96-b4a2-ab97eb2c2cfa:
+              id: 1f521e1e-6835-4d96-b4a2-ab97eb2c2cfa
+              name: Lokationer
             a1c457d3-d58b-481f-9dd2-543fa2ba5d22:
               id: a1c457d3-d58b-481f-9dd2-543fa2ba5d22
               name: Adresser
